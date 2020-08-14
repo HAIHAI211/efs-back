@@ -2,7 +2,7 @@
  * @Author: Harrison
  * @Date: 2020-08-11 16:27:55
  * @LastEditors: Harrison
- * @LastEditTime: 2020-08-11 17:02:40
+ * @LastEditTime: 2020-08-14 10:15:00
  * @Description: 默认配置
  */
 
@@ -29,13 +29,13 @@ module.exports = appInfo => {
   //   },
   // };
 
-  config.cluster = {
-    listen: {
-      path: '',
-      port: 7001,
-      hostname: '127.0.0.1',
-    },
-  };
+  // config.cluster = {
+  //   listen: {
+  //     path: '',
+  //     port: 7001,
+  //     hostname: '127.0.0.1',
+  //   },
+  // };
 
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1597134361488_6029';
